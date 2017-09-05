@@ -1,0 +1,2 @@
+# kickstart
+some kickstart scripts
