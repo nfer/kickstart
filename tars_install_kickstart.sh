@@ -11,17 +11,17 @@ function run() {
 }
 
 # install yum packages
-run yum install -y glibc-devel
-run yum install -y gcc
-run yum install -y gcc-c++
-run yum install -y ncurses-devel
-run yum install -y zlib-devel
-run yum install -y perl
-run yum install -y git
-run yum install -y flex
-run yum install -y bison
-run yum install -y perl-Module-Install.noarch
-run yum install -y cmake
+run yum install -q -y glibc-devel
+run yum install -q -y gcc
+run yum install -q -y gcc-c++
+run yum install -q -y ncurses-devel
+run yum install -q -y zlib-devel
+run yum install -q -y perl
+run yum install -q -y git
+run yum install -q -y flex
+run yum install -q -y bison
+run yum install -q -y perl-Module-Install.noarch
+run yum install -q -y cmake
 
 
 # install java jdk
